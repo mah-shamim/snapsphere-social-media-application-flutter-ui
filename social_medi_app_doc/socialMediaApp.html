@@ -1,0 +1,212 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>TribPix</title>
+<!-- Framework CSS -->
+<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+<style type="text/css" media="screen">
+html {scroll-behavior: smooth;}
+p, table, hr, .box { margin-bottom:25px; }
+.box p { margin-bottom:10px; }
+.img-fluid {max-width: 100%;} 
+
+
+</style>
+</head>
+
+
+<body>
+<div class="container">
+
+<h3 class="center alt">&ldquo;Social Media App&rdquo; Documentation by &ldquo;Siddharth Patel&rdquo; v1.0</h3>
+
+<hr>
+
+<h1 class="center">&ldquo;Social Media App&rdquo;</h1>
+
+<div class="borderTop">
+<div class="span-6 colborder info prepend-1">
+<p class="prepend-top">
+<strong>
+Created: 07/06/2023<br>
+By: Siddharth Patel<br>
+<!--Email:--> <a href="mailto:youremail@yourdomain.com">appsellpoint@gmail.com</a>
+</strong>
+</p>
+</div><!-- end div .span-6 -->
+
+<div class="span-12 last">
+<p class="prepend-top append-0">Thank you for purchasing my app. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact from <a href="https://www.initiotechmedia.com/inquiry/">here</a>. Thanks so much!</p>
+</div>
+</div><!-- end div .borderTop -->
+
+<hr>
+
+<h2 id="toc" class="alt">Table of Contents</h2>
+<ol class="">
+<li><a href="#projectversion">Project Version</a></li>
+<li><a href="#openproject">Open Project</a></li>
+<li><a href="#project_structure">Project Structure</a></li>
+<li><a href="#change_app_name">Change Application Name</a></li>
+<li><a href="#Reskin_project_image">Reskin Project Images</a></li>
+<li><a href="#change_colour">Change Colour</a></li>
+<li><a href="#update_package">Update Directory or File Name</a></li>
+<li><a href="#app_id">Change Application Id</a></li>
+<li><a href="#google_admob_id">Google Admob Ad</a></li>
+<li><a href="#setting_changes">App Functionality</a></li>
+</ol>
+<hr>
+
+<h3 id="projectversion"><strong>1) Project Version </strong> - <a href="#toc">top</a></h3>
+<p>Please use the following flutter and dart version for this project.</p>
+
+<p>
+<ul>
+
+<li>Flutter 3.3.0 - Channel stable</li>
+<li>Dart 2.18.0</li>
+</ul>
+</p>
+<p></p>
+<hr>
+
+
+
+
+<h3 id="openproject"><strong>2) Open  Project </strong> - <a href="#toc">top</a></h3>
+<p>Open android studio and click on Open button in top-right corner of the screen.</p>
+
+<img src="assets/images/android_studio_open.png" alt="Open or Import Project" class="img-fluid" />
+<p></p>
+<p>Browse to the Main Directory of the project and select open option.</p>
+
+
+<img src="assets/images/open_directory.png" alt="Main directory" class="img-fluid"/>
+
+<p></p>
+<hr>
+
+<h3 id="project_structure"><strong>3) Project Structure</strong> - <a href="#toc">top</a></h3>
+
+
+<p>From the left side of screen, open "lib" folder once the Android Studio completes updating necessary files.</p> 
+<img src="assets/images/project_structure.png" alt="Project Structure" class="img-fluid" />
+<p></p>
+
+<p></p>
+<hr>
+
+
+<h3 id="change_app_name"><strong>4) Change Application Name</strong> - <a href="#toc">top</a></h3>
+<p><b><u>For Android:</u></b></p>
+<p>To change the app name in the manifest file of an Android Studio project, you need to modify the android:label attribute of the <application> or <activity> tag in the manifest file.</p>
+
+<img src="assets/images/change_app_name_android.png" alt="Change App Name Android" class="img-fluid" /><p></p>
+
+<p><b><u>For iOS:</u></b></p>
+<p>To change application name in iOS, right click on the iOS directory and then simply go to plist and simply replace the value of CFBundleDisplayName </p>
+
+<img src="assets/images/change_app_name_ios.png" alt="Change App Name iOS" class="img-fluid" />
+        <p></p>
+<hr>
+
+
+
+
+
+<h3 id="Reskin_project_image"><strong>5) Reskin Project Images</strong> - <a href="#toc">top</a></h3>
+
+<p><b><u>For Android:</u></b></p>
+
+<p>To change and update the icons, select the "android" folder and then go to "app" directory. From there navigate to "src" folder and then move to "main" folder. Now, open the "res" folder.</p>
+
+<img src="assets/images/update_android_icons.png" alt="Update android icons" class="img-fluid" />
+<p></p>
+<p>There are two types of folders here.</p>
+
+<p> 1. Mipmap (hdpi, mdpi,......, xxxhdpi)</p>
+<p>Updates the icon inside the mipmap to change main application launcher icon and splash screen. </p>
+<p> 2. Drawable (hdpi, mdpi,......, xxxhdpi)</p>
+<p> Updates the drawable icon which will affect the notification icons.</p>
+<p></p>
+<p><b><u>For IOS:</u></b></p>
+
+<p>To change and update the icons, select the iOS folder and then go to Runner directory. From there navigate to Assets.xcassets folder and open it with Finder.</p>
+
+<img src="assets/images/update_ios_icons.png" alt="Update android icons" class="img-fluid" />
+
+<hr>
+
+
+
+<h3 id="change_colour"><strong>6) Change colour</strong> - <a href="#toc">top</a></h3>
+
+<p>To change the colour anywhere in the application, you can change the colour code in the "colors_utils.dart" file.</p> 
+
+<img src="assets/images/change_color.png" alt="Change Colour" class="img-fluid" />
+<p></p>
+
+
+<h3 id="update_package"><strong>7) Update Directory or File Name</strong> - <a href="#toc">top</a></h3>
+
+<p>To change the name of package or a file, right click on the package or file you want to update and select "Refactor" and then click on "Rename" option.</p> 
+
+<img src="assets/images/copyupdate_package.png" alt="Update package name" class="img-fluid" />
+<p></p>
+
+
+<hr>
+<h3 id="app_id"><strong>8) Change Application Id</strong> - <a href="#toc">top</a></h3>
+<p><b><u>For Android:</u></b></p>
+<p>To change Application Id for android, Navigate to app folder which is inside the android directory and then open the src folder. Now, open "build.gradle" file.</p>
+<p>Now, move down to the "defaultConfig" block in the file and over there you can change the highlighted text with your application id.</p>
+<img src="assets/images/android_app_id.png" alt="Change application id for android" class="img-fluid" />
+        <p></p>
+<p><b><u>For iOS:</u></b></p>
+<p>To change bundle identifier in iOS, Open Info.plist file and change the BundleIdentifier with your required Identifier for IOS. Here below is the image." </p>
+<img src="assets/images/iosAppID.png" alt="Open iOS Xcode" class="img-fluid" />
+        <p></p>
+<p>In Below image shows the PRODUCT_BUNDLE_IDENTIFIER which is given in Info.plist file." </p>
+<img src="assets/images/bundle_indentifier.png" alt="Change bundle identifier" class="img-fluid" />
+        <p></p>
+<hr>
+
+
+<h3 id="google_admob_id"><strong>9) Google Admob Ad</strong> - <a href="#toc">top</a></h3>
+<p>You can change your google admob banner ad id, interstitial ad id and rewarded ad id for Android and iOS in "ads_ids.dart" file as shown in below pictures.</p>
+<img src="assets/images/google_change_id.png" alt="Google admob id" class="img-fluid" />
+<p></p>
+<p>Also, for android you have to change google admob android app id in "AndroidManifest.xml" file.</p>
+<img src="assets/images/android_manifest_admob.png" alt="Google admob id" class="img-fluid" />
+<p></p>
+<p>Also, for iOS you have to change google admob iOS app id in "Info.plist" file.</p>
+<img src="assets/images/info_plist_admob.png" alt="Google admob id" class="img-fluid" />
+
+<hr>
+
+<h3 id="setting_changes"><strong>10) App Functionality</strong> - <a href="#toc">top</a></h3>
+<img src="assets/images/13_Settings.JPEG" alt="Settings" width="250px" />
+<p></p>
+
+
+<h3 id="edit_exercise"><strong>Add Post & Video</strong> - <a href="#toc">top</a></h3>
+<p>Social Media App allows users to create profiles and share different types of content, such as text, photo, video, audio</p>
+<p>social media to connect and get to know people from virtually any point on the globe. People are able to create communities who share the same interests with them and often collaborate with one another on whatever they choose.</p>
+<p>Easy to build relationships and connecting with like-minded people.</p>
+
+
+
+<hr>
+
+<p>Once again, thank you so much for using this app. As I said in the beginning, I'd be glad to help you if you have any questions related to this app. No guarantees, but I'll do my best to assist you. If you have more general questions regarding this app, you may ask your questions."</p> 
+
+<p class="append-bottom alt large"><strong>Siddharth Patel</strong></p>
+<p><a href="#toc">Go To Table of Contents</a></p>
+
+<hr class="space">
+</div><!-- end div .container -->
+</body>
+</html>
